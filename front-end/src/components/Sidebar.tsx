@@ -14,12 +14,16 @@ export default function Sidebar() {
           Dashboard
         </Link>
 
-        <Link href="/campaigns" className="block px-3 py-2 rounded-md hover:bg-gray-100">
-          Vendas
+        <Link href="/sales" className="block px-3 py-2 rounded-md hover:bg-gray-100">
+          Sales
         </Link>
 
-        <Link href="/campaigns/create" className="block px-3 py-2 rounded-md hover:bg-gray-100">
-          Compras
+        <Link href="/purchases" className="block px-3 py-2 rounded-md hover:bg-gray-100">
+          Purchases
+        </Link>
+
+        <Link href="/products" className="block px-3 py-2 rounded-md hover:bg-gray-100">
+          Products
         </Link>
       </nav>
 
